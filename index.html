@@ -14,6 +14,7 @@
 			3.新建仓库
 			
 			git操作
+			暂存区操作
 				1.cd 进去工作区（项目）
 				2.配置git基本信息
 				3.进行本地初始化（创建暂存区） git init
@@ -23,6 +24,13 @@
 				6.从暂存区恢复到工作区 git checkout "路径"
 				7.查看工作区与暂存区的版本区别 git diff
 				8.查看已经提交到暂存区的文件版本
+				9.恢复暂存区文件到指定某个版本 git reset --hard 版本号
+			仓库
+				10.生成ssh密钥 ssh-keygen -t rsa -C "邮箱"
+				11.获取密钥
+				12.将密钥设置到仓库
+				13.将暂存区的文件上传到厂库 git remote add origin "仓库地址"
+				git push -u origin master
 		 -->
 	</body>
 </html>
